@@ -3,9 +3,15 @@ Your ChatGPT AI Resume Writer
 
 This project utilizes the OpenAI API to automate the process of writing resumes and cover letters. By providing prompts and input files, the program generates a refined resume and cover letter tailored to specific job listings.
 
+## Requirements
+
+pip install openai
+
 ## Setup
 
 To use this program, you need to set up the OpenAI API key. Replace `os.environ["OPENAI_API_KEY"] = ''` with your API key.
+
+To start resume_info, cover_letter and job_listing need to be replaced in the data folder.
 
 ## Usage
 
