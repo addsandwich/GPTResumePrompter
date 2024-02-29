@@ -5,7 +5,7 @@ This project utilizes the OpenAI API to automate the process of writing resumes 
 
 ## Requirements
 
-pip install openai
+`pip install openai`
 
 ## Setup
 
@@ -30,7 +30,7 @@ To start resume_info, cover_letter and job_listing need to be replaced in the da
      - `job_listing.txt`: Job listing information.
 
 3. **Execution**  
-   - Run the notebook to generate the final resume, rating, and cover letter.
+   - Run the notebook 'autoresume' to generate the final resume, rating, and cover letter.
 
 4. **Output**  
    - The final resume is saved in `resume_file.txt`.
